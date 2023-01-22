@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Dylan Jacquet">
+    <meta name="description" content="Un mini-jeu">
+    <link rel="apple-touch-icon" href="icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Guessing Game</h1>
+<section>
+    <h2>Devinez le nombre entre 1 et 10 inclus.</h2>
+    <form action="#" method="get">
+        <label for="guessNumb">Choisissez un nombre :</label>
+        <input type="number" name="numberInput" id="guessNumb">
+        <input type="submit" name="Verification" value="Verification">
+    </form>
+    <div>
+        <p class="answer"></p>
+    </div>
+    <form action="#" id="play-again" class="play play--again--hidden" method="get">
+        <label for="play_again"></label>
+        <input class="play__item play__item--submit" type="submit" value="Recommencer" id="play_again">
+    </form>
+</section>
+<footer>
+    <small>© : DYLAN JACQUET</small>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

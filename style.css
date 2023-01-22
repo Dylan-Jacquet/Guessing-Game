@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+section,footer {
+    margin: 0 auto;
+    max-width: 70rem;
+}
+
+h1 {
+    padding: 1em;
+    margin-bottom: 1.25em;
+    background-color: #183a37;
+    color: white;
+}
+
+h1, h2 {
+    font: 2rem Helvetica, Arial;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
+}
+
+form label[for="guessNumb"],
+form input[type="submit"] {
+    margin: 0 auto;
+    display: block;
+}
+
+form label[for="guessNumb"] {
+    font: 1rem Helvetica, Arial;
+    margin-bottom: .5rem;
+}
+
+form input[type="submit"],
+#play_again:hover {
+    background-color: #183a37;
+    color: white;
+    font: 1rem Helvetica, Arial;
+    margin-top: .75rem;
+    padding: .75em 1.75em;
+    border-radius: .5rem;
+    border: 2px solid #183a37;
+}
+
+form input[type="submit"]:hover,
+#play_again:hover {
+    background-color: white;
+    color: #183a37;
+    border: 2px solid #183a37;
+}
+
+div p {
+    margin: 1rem;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+
+.goodAnswer {
+    font: 1em Helvetica, Arial;
+    color: olivedrab;
+}
+
+.wrongAnswer {
+    font: 1em Helvetica, Arial;
+    color: darkred;
+}
+
+span {
+    font-weight: 700;
+}
+
+.play--again--hidden {
+    display: none;
+}
+
+footer small{
+    font: 1rem Helvetica,Arial;
+    font-weight: 700;
+}
+footer{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 100%;
+    text-align: right;
+}
